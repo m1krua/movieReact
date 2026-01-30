@@ -1,0 +1,128 @@
+.cards-container {
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+    /* border: 1px solid red; */
+}
+
+.card {
+    overflow: hidden;
+    transition: transform 0.3s;
+    position: relative;
+    background-color: rgba(51, 51, 51, 1);
+    padding: 8px;
+    cursor: pointer;
+    width: 193px;
+    height: 262px;
+    border-radius: 12px;
+}
+
+
+.card-rating {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: rgba(51, 51, 51, 1);
+    border-radius: 8px;
+    padding: 2px 4px;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    /* height: 350px;*/
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 177px;
+    height: 246px;
+    border-radius: 12px;
+}
+
+.like-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.heart-fon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-bottom-left-radius: 8px;
+    width: 28px;
+    height: 28px;
+    background-color: rgba(51, 51, 51, 1);
+}
+
+
+
+.like-button img {
+    width: 12px;
+    height: 12px;
+}
+
+.card-content {
+    padding: 8px 23px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.card-content {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16px);
+}
+
+.card-title {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.card-genres {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+
+.card-rating {
+    color: #999;
+    font-size: 12px;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #999;
+    font-size: 12px;
+}
+
+.card-rating img {
+    width: 14px;
+    height: 14px;
+}

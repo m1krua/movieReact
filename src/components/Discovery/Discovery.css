@@ -1,0 +1,136 @@
+.container {
+    width: 1152px;
+    height: 375px;
+    /* position: relative; */
+    margin: 30px;
+}
+
+/* 
+.discovery>img {
+    object-fit: cover;
+    width: 1152px;
+    height: 375px;
+    border-radius: 20px;
+} */
+
+.fon {
+    z-index: -1;
+    position: absolute;
+}
+
+.fon img {
+    object-fit: cover;
+    width: 1152px;
+    height: 390px;
+    border-radius: 20px;
+    filter: brightness(0.6);
+}
+
+.discovery.container {
+    position: relative;
+}
+
+.span1,
+.span2 {
+    font-weight: 400;
+    font-size: 36px;
+    color: rgba(204, 204, 204, 1);
+    font-family: "Bigelow Rules", serif;
+}
+
+.span1 {
+    position: absolute;
+    left: 376px;
+    top: 3px;
+}
+
+.span2 {
+    position: absolute;
+    right: 344px;
+    top: 3px;
+}
+
+
+.description {
+    position: absolute;
+    padding: 22px 18px;
+    border: 2px solid #808080;
+    top: 45px;
+    left: 35px;
+}
+
+.description div {
+    width: 1043px;
+}
+
+.description p {
+    width: 289px;
+}
+
+.btn {
+    position: absolute;
+    right: 60px;
+    top: 60px;
+}
+
+.btn button {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.btn button h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #E7BC0F;
+}
+
+.description p {
+    color: rgba(128, 128, 128, 1);
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.p-absolute {
+    position: absolute;
+    font-weight: 400;
+    font-size: 24px;
+    bottom: 65px;
+    right: 277px;
+    z-index: 2;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.h2-absolute {
+    position: absolute;
+    bottom: -6px;
+    left: 296px;
+    z-index: 1;
+    font-family: "Playfair Display SC", serif;
+    font-size: 47px;
+    font-weight: 900;
+}
+
+.shelby-absolute {
+    position: absolute;
+    bottom: -15px;
+    left: 428px;
+    width: 297px;
+    height: 537px;
+}
+
+.cloud-absolute {
+    width: 698px;
+    height: 337px;
+    position: absolute;
+    bottom: -15px;
+    left: 221px;
+}

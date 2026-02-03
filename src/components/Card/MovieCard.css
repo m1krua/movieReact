@@ -29,6 +29,25 @@
     position: absolute;
     left: 14px;
     top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.raiting img {
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+}
+
+.raiting span {
+    font-size: 12px;
+}
+
+.raiting .grey-rait {
+    font-size: 10px;
+    color: rgba(178, 178, 178, 1);
 }
 
 .card-footer {
@@ -43,25 +62,30 @@
     text-align: center;
 }
 
-.card-footer h4{
+.card-footer h4 {
     margin-top: 8px;
     font-size: 14px;
     margin-bottom: 4px;
 }
 
-.card-footer p{
+.card-footer p {
     font-size: 12px;
 }
 
 .like-button {
-    width: 24px;
+    width: 24px; 
     height: 24px;
     position: absolute;
     top: 8px;
     right: 8px;
     border-radius: 8px;
-    background-color: red;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.like-button img {}
-
+.like-button img {
+    width: 12px;
+    height: 12px;
+}

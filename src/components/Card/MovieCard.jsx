@@ -1,6 +1,7 @@
 import "./MovieCard.css"
 const imgUrl = "https://i.pinimg.com/1200x/91/2e/c4/912ec4ce3e849af177890a23e0100019.jpg";
-import star from "../../assets/star.svg";
+import star  from "../../assets/star.svg";
+import heart  from "../../assets/heart.svg"
 
 export const MovieCard = () => {
     return (
@@ -10,7 +11,7 @@ export const MovieCard = () => {
                 <span className="raiting">
                     <img src={star} alt="" />
                     <span>7.0</span>
-                    <span>/10</span>
+                    <span className="grey-rait">/10</span>
                 </span>
                 <div className="card-footer">
                     <h4>Hotel Transylvania</h4>
@@ -20,7 +21,7 @@ export const MovieCard = () => {
 
 
             <div className="like-button">
-                <img src="" alt="" />
+                <img src={heart} alt="" />
             </div>
         </div>
     )

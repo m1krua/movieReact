@@ -1,6 +1,8 @@
 import { Header } from "./components/Header/Header"
 // import { Card } from "./components/Card/Card"
 import { MovieCard } from "./components/Card/MovieCard"
+import { HotNews } from "./components/HotNews/HotNews"
+import { Discovery } from "./components/Discovery/Discovery"
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       {/* <Card /> */}
       <MovieCard />
+      <HotNews />
+      <Discovery />
     </div>
   )
 }

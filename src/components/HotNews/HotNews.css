@@ -1,0 +1,52 @@
+.yellow-div,
+.black-div {
+    width: 308px;
+    height: 734px;
+    border-radius: 20px;
+}
+
+.yellow-div {
+    background-color: yellow;
+    transform: rotate(-1.5deg);
+    padding: 3px 0;
+}
+
+.black-div {
+    background-color: black;
+    transform: rotate(1.5deg);
+    height: 728px;
+    padding: 16px;
+}
+
+.black-div>img {
+    border-radius: 12px;
+    width: 256px;
+    margin-bottom: 32px;
+}
+
+.black-div>h3 {
+    color: var(--color-yellow);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.black-div>p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.black-div div {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.black-div div p {
+    font-size: 12px;
+}
+
+.black-div div p:first-child {
+    color: #B2B2B2;
+    ;
+}

@@ -28,7 +28,7 @@ export const Header = () => {
                 <img src={bell} alt="" />
 
                 <div className="profile">
-                    <img src="https://i.pinimg.com/1200x/3a/81/14/3a81141e65cda875353696646afdf758.jpg" alt="" />
+                    <img src="https://i.pinimg.com/736x/6e/68/03/6e68039af2f15343b16cecea80f6ccff.jpg" alt="" />
                 </div>
             </div>
         </header>

@@ -18,9 +18,7 @@ export const Discovery = () => {
             <span className="span2">DISTILLERY</span>
 
             <div className="description">
-                <div>
-                    <p>Peaky Blinders is a British crime drama about the Shelby family in post-World War I Birmingham, as they build their power through criminal activities. Led by the cunning Tommy Shelby, the show mixes intense drama with historical grit.</p>
-                </div>
+                <p>Peaky Blinders is a British crime drama about the Shelby family in post-World War I Birmingham, as they build their power through criminal activities. Led by the cunning Tommy Shelby, the show mixes intense drama with historical grit.</p>
             </div>
 
             <div className="btn">
